@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Metro Tutorial - 5min ⏱️
+            Create new data pipeline in 5min ⏱️
           </Link>
         </div>
       </div>

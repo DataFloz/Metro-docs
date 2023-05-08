@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Infrastructure as code',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/IAC.jpg').default,
     description: (
       <>
         Infrastructure as code for easy and efficient infrastructure management.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Real-time stream processing',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/real-time.png').default,
     description: (
       <>
         Strong capabilities for real-time stream processing. With Chain of responsibility design for improved reliability and reduced downtime.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Multi-cloud support',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/multicloud.png').default,
     description: (
       <>
         Multi-cloud and Flexible deployment options, for increased choice and flexibility in infrastructure deployment.
@@ -36,7 +36,7 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Svg} className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
