@@ -17,7 +17,7 @@ __The Key priciples of this pipelines platform are:__
 
 ![img](../static/img/basics.png)
 
-#### How it will work?
+### How it will work?
 ![img](../static/img/how_it_will_works.png)
 
 
