@@ -108,6 +108,12 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Contact',
+            items: [
+              
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} DataFloz.`,
       },
