@@ -2,46 +2,40 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### What Metro.IO is?
+Metro is data pipelines orchestrator platform with 5 key priciples.
 
-## Getting Started
+__The Key priciples of this pipelines platform are:__
+- Infrastruction as Code
+- Events driven
+- KISS (Keep It Simple, Stupid!)
+- Run & debug anywhere (including locally)
+- Chain of Responsibility pipelines design perspective 
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+![img](../static/img/basics.png)
 
-### What you'll need
+#### How it will work?
+![img](../static/img/how_it_will_works.png)
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
+### Why should you try it:
+As you consider potential FAAS stream solutions for your business, it's important to understand the key differentiators that set each solution apart. 
 
-Generate a new Docusaurus site using the **classic template**.
+- Infrastructure as code for easy and efficient infrastructure management
+- Chain of responsibility for improved reliability and reduced downtime
+- Strong capabilities for real-time stream processing
+- Flexible deployment options, including support for multiple cloud providers and on-premises deployment
+- Built-in security features, such as encryption and access control
+- Multi-cloud support for increased choice and flexibility in infrastructure deployment
 
-The classic template will automatically be added to your project after you run the command:
+ With infrastructure as code, chain of responsibility, real-time stream processing, flexible deployment options, built-in security features, and multi-cloud support, our solution can provide your business with efficient, reliable, and secure infrastructure management.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+**There are several pipeline type each one use different approch to transform the data:**
+- SQL (To transform data using SQL query with no efforts)
+- container (To run in you own custom environment)
+- HTTP (To use already existing logic within your new pipeline)
+- pickle (To analyze predictions and ML capality on your data with no effor
