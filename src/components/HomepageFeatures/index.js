@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Infrastructure as code',
-    Svg: require('@site/static/img/IAC.jpg').default,
+    Svg: require('@site/static/img/iaac.jpg').default,
     description: (
       <>
         Infrastructure as code for easy and efficient infrastructure management.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Multi-cloud support',
-    Svg: require('@site/static/img/multicloud.png').default,
+    Svg: require('@site/static/img/multicloud.jpg').default,
     description: (
       <>
         Multi-cloud and Flexible deployment options, for increased choice and flexibility in infrastructure deployment.
