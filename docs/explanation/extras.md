@@ -6,3 +6,5 @@ sidebar_position: 6
 
 ### Queues
 #### Kafka queue connector
+#### Redis subscriber connector
+#### RabbitMQ queue connector

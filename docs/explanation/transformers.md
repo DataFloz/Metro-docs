@@ -7,5 +7,9 @@ sidebar_position: 4
 ### Responsiblity
 
 ### Available Types
+#### SQL
+#### Pickle file (ML)
+#### HTTP
+#### container
 
 ### Some Ideas
