@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Multi-cloud support',
-    Svg: require('@site/static/img/multicloud.jpg').default,
+    Svg: require('@site/static/img/multicloud.png').default,
     description: (
       <>
         Multi-cloud and Flexible deployment options, for increased choice and flexibility in infrastructure deployment.
