@@ -11,5 +11,8 @@ sidebar_position: 5
 ### How to debug it
 
 ### Features
+![img](../static/img/metro-table-view.png)
+
+![img](../static/img/metro-graph-view.png)
 
 ### Some Ideas
