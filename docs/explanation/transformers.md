@@ -8,7 +8,7 @@ sidebar_position: 4
 
 ### Available Types
 #### SQL
-![img](../../static/img/sql-transformer.png)
+![img](../../static/img/sql-tranformer.png)
 #### Pickle file (ML)
 ![img](../../static/img/ml-transformer.png)
 #### HTTP
