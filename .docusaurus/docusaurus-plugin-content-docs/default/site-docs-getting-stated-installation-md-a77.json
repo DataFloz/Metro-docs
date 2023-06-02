@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-stated/installation",
+  "id": "getting-stated/installation",
+  "title": "Installation",
+  "description": "Install Locally",
+  "source": "@site/docs/getting-stated/installation.md",
+  "sourceDirName": "getting-stated",
+  "slug": "/getting-stated/installation",
+  "permalink": "/Metro-docs/docs/getting-stated/installation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-stated/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "introSidebar",
+  "previous": {
+    "title": "Getting Start",
+    "permalink": "/Metro-docs/docs/category/getting-start"
+  },
+  "next": {
+    "title": "Running",
+    "permalink": "/Metro-docs/docs/getting-stated/running"
+  }
+}

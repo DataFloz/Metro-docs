@@ -1,0 +1,27 @@
+{
+  "unversionedId": "explanation/runner",
+  "id": "explanation/runner",
+  "title": "Runner",
+  "description": "Responsiblity",
+  "source": "@site/docs/explanation/runner.md",
+  "sourceDirName": "explanation",
+  "slug": "/explanation/runner",
+  "permalink": "/Metro-docs/docs/explanation/runner",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/explanation/runner.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "introSidebar",
+  "previous": {
+    "title": "Config YAML",
+    "permalink": "/Metro-docs/docs/explanation/config"
+  },
+  "next": {
+    "title": "Pipeline",
+    "permalink": "/Metro-docs/docs/explanation/pipeline"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "explanation/runner copy",
+  "id": "explanation/runner copy",
+  "title": "Runner",
+  "description": "Responsiblity",
+  "source": "@site/docs/explanation/runner copy.md",
+  "sourceDirName": "explanation",
+  "slug": "/explanation/runner copy",
+  "permalink": "/docs/explanation/runner copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/explanation/runner copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Config YAML",
+    "permalink": "/docs/explanation/config"
+  },
+  "next": {
+    "title": "Runner",
+    "permalink": "/docs/explanation/runner"
+  }
+}
