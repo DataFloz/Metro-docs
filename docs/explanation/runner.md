@@ -20,8 +20,8 @@ The folder contains vscode launch.json file with the debug configuration include
 Also you have the option to run the project in devcotainer, the configuration already included as well, for fast enviroment setup.
 
 ### Features
-- Running the pipelines (using docker containers) 
+- Running the pipelines using docker containers) 
+- Running the pipelines with k8s configuration.
 
 ### Some Ideas
-- Running the pipeline with k8s configuration.
-- Running the pipeline on different cloudsm simultaneously. 
+- Running the pipeline on different clouds simultaneously.

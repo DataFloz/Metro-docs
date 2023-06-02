@@ -10,5 +10,6 @@ __Infrastructure as Code!__
 ### Parts
 - Connectors (...)
 - Piplines (...)
+- Running Infrastructure
 
 (Some images of samples)
