@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Available Transformation Types
+# Transformation Types
 
 In the system, you can normalize raw data using various transformation types. Each transformation type offers a different approach to data normalization. Choose the one that best fits your requirements and data processing needs.
 
