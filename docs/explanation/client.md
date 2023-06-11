@@ -4,8 +4,6 @@ sidebar_position: 5
 
 # Client
 
-## System Client Functionality
-
 The system client provides a user-friendly interface to interact with the system and perform various tasks. It offers several functionalities to configure, manage, and monitor your pipelines effectively.
 
 ### How to run it
