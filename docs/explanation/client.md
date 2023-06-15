@@ -50,4 +50,7 @@ You can retrieve specific details about individual pipelines using the client. T
 
 The client offers a convenient way to create new topics for your pipelines. You can specify the topic name, partitions, replication factor, and other configuration options through the user interface. Furthermore, you can generate test messages to validate your pipeline functionality and ensure that the data flows correctly.
 
+![img](../../static/img/pipeline-actions.png)
+
+
 Utilize the system client's functionality to configure, manage, and monitor your pipelines efficiently. Refer to the client documentation for detailed instructions on how to use each feature effectively.
