@@ -10,25 +10,25 @@ In the system, you can normalize raw data using various transformation types. Ea
 
 The SQL transformation allows you to normalize data using SQL queries. You can write custom SQL statements to manipulate and transform the data stored in a database. This transformation type is useful when you need to perform complex data manipulations or leverage the power of SQL for data normalization.
 
-![img](../../static/img/sql-tranformer.png)
+![img](../../static/img/sql-tranformer.png){ width: 200px; }
 
 ## HTTP Request Transformation
 
 The HTTP Request transformation enables you to normalize data by making HTTP requests to external services or APIs. You can fetch data from remote sources, process it, and transform it according to your needs. This transformation type is beneficial when you need to integrate with external systems or retrieve data from web services.
 
-![img](../../static/img/http-transformer.png)
+![img](../../static/img/http-transformer.png){ width: 200px; }
 
 ## Pickle File Transformation
 
 The Pickle File transformation involves using a pickle file that contains a pre-trained model or function for data normalization. You can load the pickle file in your transformation pipeline and utilize the provided function or model to transform the data. This transformation type is suitable when you have a trained model or a custom data processing function that can be applied to your dataset.
 
-![img](../../static/img/ml-transformer.png)
+![img](../../static/img/ml-transformer.png){ width: 200px; }
 
 ## Container Transformation
 
 The Container transformation allows you to normalize data by running a containerized process that performs the required data transformation. You can build a container image with your data normalization logic, and then run the container to process the data. This transformation type offers flexibility and isolation, making it ideal for complex or specialized data normalization tasks.
 
-![img](../../static/img/container-transformer.png)
+![img](../../static/img/container-transformer.png){ width: 200px; }
 
 
 
