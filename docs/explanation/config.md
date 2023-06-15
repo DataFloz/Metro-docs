@@ -78,7 +78,7 @@ To help you get started with the Metro.yaml configuration file, here are a few e
         transformation:
         type: 'pickle'
       file_name: 'test.pkl'
-```
+    ```
 
 
 These examples provide a glimpse into the structure and syntax of the Metro.yaml configuration file. Refer to the system's documentation for detailed information on each configuration option and the available configuration settings.
