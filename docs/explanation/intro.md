@@ -14,4 +14,4 @@ Metro.io has several components:
 - Queue
 
 
-(some picture for overroll view)
+![img](../../static/img/pipeline-graphs-option.png)
