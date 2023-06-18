@@ -8,7 +8,7 @@ sidebar_position: 1
 Metro is data pipelines orchestrator platform with 5 key priciples.
 
 __The Key priciples of this pipelines platform are:__
-- Infrastruction as Code
+- Infrastructure as Code
 - Events driven
 - KISS (Keep It Simple, Stupid!)
 - Run & debug anywhere (including locally)
