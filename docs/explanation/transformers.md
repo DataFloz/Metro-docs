@@ -33,6 +33,3 @@ The Container transformation allows you to normalize data by running a container
 
 
 Select the transformation type that aligns with your data transformation needs and refer to the corresponding documentation for detailed instructions on how to utilize each transformation type effectively.
-
-
-### Some Ideas

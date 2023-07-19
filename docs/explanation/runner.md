@@ -18,6 +18,8 @@ The Runner component exposes an API that allows users and other system component
 
 The Runner component is responsible for orchestrating the rollout of the configuration. When a new configuration is applied, the Runner component ensures that the pipelines mentioned in the Metro.yaml file are executed according to the updated configuration. This involves starting the necessary system containers or deploying the pipelines in a Kubernetes cluster based on the configured infrastructure.
 
+The rollout procces can be use with the runner API, by calling the `/rollout` route.
+
 The configuration rollout process guarantees that the system is updated with the latest configuration changes, ensuring the smooth functioning of the pipelines and adherence to the desired infrastructure setup.
 
 Utilize the capabilities of the Runner component to manage and rollout the system's configuration effectively. Refer to the system's documentation for detailed instructions on how to interact with the Runner component and perform configuration-related operations.
