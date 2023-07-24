@@ -98,11 +98,13 @@ With this sample Markdown content, you can explain the purpose and benefits of t
 |pipelines             |contain the configuration for all the pipelines      |pipeline array        |
 
 __running_infrastructure__:
+
 | property name     | description                         | type                    |
 |-------------------|-------------------------------------|-------------------------|
 |infrustructure_type|the type of the infrastructure to run|'container'/'kubernetes' |
 
 __connector__:
+
 | property name | description                                   | type    |
 ----------------|-----------------------------------------------|---------|
 |name           | the name of the connector                     | string  |
