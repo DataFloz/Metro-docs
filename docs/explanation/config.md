@@ -91,6 +91,7 @@ With this sample Markdown content, you can explain the purpose and benefits of t
 ## Schema Table
 
 | property name        | description                                         | type                 |
+|----------------------|-----------------------------------------------------|----------------------|
 | name                 | the name of your metro deployment                   | string               |
 |running_infrastructure|contain the configuration for running the pipelines  |running_infrastructure|
 |connector             |contain the configuration for the pipelines connector|connector             |
@@ -98,10 +99,12 @@ With this sample Markdown content, you can explain the purpose and benefits of t
 
 __running_infrastructure__:
 | property name     | description                         | type                    |
+|-------------------|-------------------------------------|-------------------------|
 |infrustructure_type|the type of the infrastructure to run|'container'/'kubernetes' |
 
 __connector__:
 | property name | description                                   | type    |
+----------------|-----------------------------------------------|---------|
 |name           | the name of the connector                     | string  |
 |type           |the type of the connector (only kafka for now) | 'kafka' |
 |brokers        |kafka brokers                                  | string  |

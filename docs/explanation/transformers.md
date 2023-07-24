@@ -13,7 +13,8 @@ The SQL transformation allows you to normalize data using SQL queries. You can w
 ![img](../../static/img/sql-tranformer.png)
 
 __Parameters:__
-|name     | type           | is required | 
+|name     | type           | is required |
+|---------|----------------|-------------|
 |sql_query| string         | yes         |
 |type     | string ('sql') | yes         |
 
@@ -25,10 +26,11 @@ The HTTP Request transformation enables you to normalize data by making HTTP req
 
 __Parameters:__
 |name     | type           | is required | 
+|---------|----------------|-------------|
 |http_url | string         | yes         |
 |headers  | dict           | no          |
 |params   | dict           | no          |
-|type     | string ('http') | yes         |
+|type     | string ('http')| yes        |
 
 ## Pickle File Transformation
 
@@ -37,7 +39,8 @@ The Pickle File transformation involves using a pickle file that contains a pre-
 ![img](../../static/img/ml-transformer.png)
 
 __Parameters:__
-|name     | type              | is required | 
+|name     | type              | is required |
+|---------|-------------------|-------------|
 |file_name| string            | yes         |
 |type     | string ('pickle') | yes         |
 
@@ -48,7 +51,8 @@ The Container transformation allows you to normalize data by running a container
 ![img](../../static/img/container-transformer.png)
 
 __Parameters:__
-|name         | type                 | is required | 
+|name         | type                 | is required |
+|-------------|----------------------|-------------|
 |container_url| string               | yes         |
 |type         | string ('container') | yes         |
 
