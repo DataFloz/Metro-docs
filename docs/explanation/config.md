@@ -87,3 +87,24 @@ Embrace the power of Infrastructure as Code with the Metro.yaml configuration fi
 
 
 With this sample Markdown content, you can explain the purpose and benefits of the Metro.yaml configuration file, as well as provide a few examples to illustrate its structure and syntax. Feel free to customize and expand upon this content based on your specific system's configuration options and requirements.
+
+## Schema Table
+
+| property name        | description                                         | type                 |
+| name                 | the name of your metro deployment                   | string               |
+|running_infrastructure|contain the configuration for running the pipelines  |running_infrastructure|
+|connector             |contain the configuration for the pipelines connector|connector             |
+|pipelines             |contain the configuration for all the pipelines      |pipeline array        |
+
+__running_infrastructure__:
+| property name     | description                         | type                    |
+|infrustructure_type|the type of the infrastructure to run|'container'/'kubernetes' |
+
+__connector__:
+| property name | description                                   | type    |
+|name           | the name of the connector                     | string  |
+|type           |the type of the connector (only kafka for now) | 'kafka' |
+|brokers        |kafka brokers                                  | string  |
+|group_id       |consumer group id                              | string  |
+
+More about the pipeline configuration is availble in the pipeline and transformers docs.
